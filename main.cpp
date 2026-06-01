@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    const int N = 256;
+    const int N = 4096;
 
     vector<complex<double>> A(N * N);
     vector<complex<double>> B(N * N);
@@ -17,7 +17,7 @@ int main() {
         A[i] = complex<double>(1.0, 1.0);
         B[i] = complex<double>(1.0, 1.0);
     }
-
+i
     complex<double> alpha(1.0, 0.0);
     complex<double> beta(0.0, 0.0);
 
